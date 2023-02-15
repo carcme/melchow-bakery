@@ -1,8 +1,8 @@
 import React from "react";
 import { graphql } from "gatsby";
-import CakesList from "../components/cakesList";
+import CakesList from "../components/CakesList";
 import Layout from "../components/Layout";
-import Seo from "../components/Seo";
+import Seo from "../components/SEO";
 
 const TagTemplate = ({ data, pageContext }) => {
   const cakes = data.allContentfulBakery.nodes;
