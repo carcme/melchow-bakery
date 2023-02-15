@@ -60,7 +60,7 @@ const Contact = ({ data }) => {
           </article>
         </section>
         <section className="featured-cakes">
-          <h5>Our Featured Awesomesauce!</h5>
+          <h5>Our Featured Yummylicious!</h5>
           <CakesList cakes={cakes} />
         </section>
       </main>

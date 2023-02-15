@@ -7,7 +7,7 @@ const Footer = () => {
       <p>
         &copy; {new Date().getFullYear()}{" "}
         <Link to="/" className="span">
-          <span>Melchow Brau</span>{" "}
+          <span>Melchow Bakery</span>{" "}
         </Link>
         | Built by {/* <a href="https://hammer3/"> */}
         Hammer3

@@ -12,7 +12,7 @@ const query = graphql`
         name
         childImageSharp {
           gatsbyImageData(
-            placeholder: TRACED_SVG
+            placeholder: DOMINANT_COLOR
             layout: CONSTRAINED
             width: 400
             height: 200
